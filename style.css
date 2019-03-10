@@ -1,0 +1,57 @@
+html, body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+img {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.title {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.title a {
+    flex-grow: 1;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    border: solid 1px #e5e5e5;
+    transition: ease-in-out 200ms;
+}
+
+.title a:hover {
+    cursor: pointer;
+}
+
+.active {
+    color: white;
+}
+
+.blue {
+    background: #62a7c9;
+}
+
+.red {
+    background: #d86871;
+}
+
+.green {
+    background: #4fa56f;
+}
+
+.yellow {
+    background: #d1cd6a;
+}
+
+.pink {
+    background: #d877d5;
+}
